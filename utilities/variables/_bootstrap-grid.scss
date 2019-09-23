@@ -1,0 +1,27 @@
+// breakpoints
+$mobile: 576px;
+$pad: 768px;
+$laptop: 992px;
+$desktop: 1200px;
+
+// Grid columns
+
+$grid-columns: 12 !default;
+$grid-gutter-width: 30px !default;
+
+// Grid breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: $mobile,
+  md: $pad,
+  lg: $laptop,
+  xl: $desktop,
+) !default;
+
+// Grid containers
+$container-max-widths: (
+  sm: 540px,
+  md: 728px,
+  lg: 960px,
+  xl: 1140px
+) !default;

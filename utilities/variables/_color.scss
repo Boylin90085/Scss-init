@@ -1,0 +1,33 @@
+// Color
+
+$primary: #e03f19;
+$secondary: #C03514;
+$success: #ff5e45;
+$danger: #be0027;
+$info: #00cc99;
+$muted: #a09e9e;
+$dark: rgba(black, 0.75);
+$light: rgba(white, 0.7);
+$white: white;
+$black: black;
+$gray: #939393;
+$bg-citation: #eeeeee;
+$bg-share: #cacaca;
+$bg-global: #fefefe;
+$bg-realtime: #f0f0f0;
+$bg-headlinetitle: #b9b9b9;
+$bg-gdpr: #efefef;
+$green: #00b492;
+
+$theme-color: (
+  'primary': $primary,
+  'secondary': $secondary,
+  'success': $success,
+  'danger': $danger,
+  'info': $info,
+  'muted': $muted,
+  'light': $light,
+  'dark': $dark,
+  'white': $white,
+  'black': $black,
+);

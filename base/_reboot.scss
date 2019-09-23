@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+html ,body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: $browser-default-font-size;
+  background-color: $bg-global;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: 500;
+}
+
+h1{
+  font-size: $font-xxxl;
+}
+h2{
+  font-size: $font-l;
+}
+h3{
+  font-size: $font-m;
+}
+h4{
+  font-size: $font-b;
+}
